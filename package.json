@@ -2,9 +2,15 @@
   "name": "if-diff-then-stiff",
   "version": "0.0.0",
   "description": "TBD",
-  "main": "if-diff-then-stiff.js",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "p-et-alia": "0.0.64",
+    "if-diff": "0.0.39"
   },
   "repository": {
     "type": "git",
